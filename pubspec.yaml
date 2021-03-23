@@ -1,0 +1,39 @@
+name: squareboatlalit
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  dio: ^3.0.10
+  mobx: ^1.2.1+4
+  flutter_mobx: ^1.1.0+2
+  build_runner: ^1.11.0
+  json_serializable: ^3.5.1
+  json_annotation: ^3.1.1
+  mobx_codegen: ^1.1.2
+  get: 3.24.0
+  pull_to_refresh: 1.6.3
+  url_launcher: ^5.7.10
+  pretty_dio_logger: ^1.0.8
+
+
+
+flutter:
+  assets:
+    - assets/sqb.png
+
+  uses-material-design: true
